@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+/* font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+
+font-family: 'Ubuntu Condensed', sans-serif; */
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand img{
+    width: 32px;
+    padding: 0 8px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 75vh;
+}
+
+.buttom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    margin-top: 34px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+.buttom #abc{
+
+}
